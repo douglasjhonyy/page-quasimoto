@@ -34,12 +34,12 @@ body{
     
 
 }
-.container-2 :hover{
-    color: #fccb04;
+nav:hover{
     transition: scale 350ms;
-    scale: 1.1;
-    
-    
+    scale: 1.1; 
+}
+a:hover{
+color: #fccb04;
 }
 
 header{
@@ -55,17 +55,13 @@ nav, a{
 }
 .logo img{
     width: 700px;
-    height: 200px;
-    
-    
+    height: 200px; 
 }
 .sociais  {
     
     padding: 10px ;
+    gap: 1px;
     display: flex;
-    align-items: center;
-    gap: 15px;
-    
     
    
 }
@@ -76,13 +72,17 @@ nav, a{
     scale: 1.1;
 }
 
-button{
+.icon-social{
     width: 40px;
     height: 40px;
-    background-color: black;
     border: none;
+    filter: invert(100%);
+}
+
+.icon-social img:hover{
     
 }
+
 i{
     font-size: 40px;
     display: flex;
