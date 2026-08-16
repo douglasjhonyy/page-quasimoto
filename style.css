@@ -11,12 +11,12 @@
     font-style: normal;
 }
 
-body{
+body {
     background-color: #fccb04;
 
 }
 
-.container{
+.container {
     max-width: 1080px;
     display: flex;
     align-items: center;
@@ -24,117 +24,114 @@ body{
     margin: 0 auto;
 
 }
-.container-2{
+
+.container-2 {
     max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
     background-color: black;
-    
+
 
 }
-nav:hover{
-    transition: scale 350ms;
-    scale: 1.1; 
-}
-a:hover{
-color: #fccb04;
+
+.link-menu:hover {
+    color: #fccb04;
 }
 
-header{
+header {
     background-color: white;
-   
+
 }
-nav, a{
+
+nav,
+a {
     text-decoration: none;
     padding-right: 40px;
-    font-size: 20px;
+    font-size: 24px;
     color: white;
-    
+
 }
-
-
-.logo img{
+s
+.logo img {
     width: 700px;
-    height: 200px; 
+    height: 200px;
 }
-.sociais  {
-    
-    padding: 10px ;
+
+.sociais {
+    padding: 10px;
     gap: 1px;
     display: flex;
-    
-   
 }
 
-.sociais :hover{
-    color: #fccb04;
+.sociais :hover {
     transition: scale 350ms;
     scale: 1.1;
 }
 
-.icon-social{
+.icon-social {
     width: 40px;
     height: 40px;
     border: none;
     filter: invert(100%);
 }
 
-.icon-social img:hover{
-    
-}
 
-i{
+i {
     font-size: 40px;
     display: flex;
     margin: auto;
     align-items: center;
     color: #fff;
-  
+
 
 }
 
-.spotify{
+.spotify {
     padding: 10px;
-    
+
 }
 
- h2, p {
+h2,
+p {
     background-color: #fff;
-    font-size: 20px;
+    font-size: 24px;
     margin-top: auto;
     padding: 10px;
     border-color: black;
 }
 
-h2{
-    font-size: 35px;
+h2 {
+    font-size: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.link{
-    color: chocolate;
-    font-size: 20px;
-    
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
-.post{
-    width: 25px; 
+.link {
+    color: chocolate;
+    font-size: 20px;
+
+}
+
+.post {
+    width: 25px;
     padding: 20px 70px;
     display: flex;
     align-items: center;
-    
+
     gap: 20px;
 }
 
-.music-pag{
+.music-pag {
     padding: 10px;
-    
+
 }
 
-footer{
+footer {
     text-align: center;
-  
+
 }
